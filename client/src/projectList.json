@@ -1,0 +1,148 @@
+    
+[
+    {
+        "id": 16,
+        "title": "React Recipe Search Book",
+        "desc": "React web application,search engine created using React. It is powered by the free Edamam Recipe API.!",
+        "image": "images/ReactRecipes.png", 
+        "keywords": "React / HTML / CSS / Bootstrap / Javascript / Media Queries", 
+        "demoLink": "https://search-my-recipes.herokuapp.com/",
+        "repo": "https://github.com/NVK2016/React-Search-Recipes"
+    },
+    {
+        "id": 1,
+        "title": "APParent",
+        "desc": "Full stack SERN application, An app to meet other parents and share information!",
+        "image": "images/APParent.png", 
+        "keywords": "Sequelize / Expreess / React / Node.js / HTML / CSS / Bootstrap / Javascript / Media Queries / AWS", 
+        "demoLink": "http://www.apparent.ga",
+        "repo": "https://github.com/SophM/APParent"
+    },
+    {
+        "id": 2,
+        "title": "codePals",
+        "desc": "Full stack web application that that allows users to form their own coding community.",
+        "image": "images/codePals.png", 
+        "keywords": "Node.js / Sequelize-MySQL / Passport / Express / Handlebars / Javascript / HTML/ CSS / Heroku", 
+        "demoLink": "https://codepals.herokuapp.com/",
+        "repo": "https://github.com/NVK2016/codePals"
+    },
+    {
+        "id": 3,
+        "title": "React Memory Game",
+        "desc": "Front end website A click based memory game built with React! Cautious! If you click on the same image more than once, you will lose and have to start over again. ",
+        "image": "images/Avengers-Memory.png", 
+        "keywords": "React / Node.js / Javascript / ES6 / HTML / CSS / BooStrap ", 
+        "demoLink": "https://nvk2016.github.io/React-Clicky-Game/",
+        "repo": "https://github.com/NVK2016/React-Clicky-Game"
+    },
+    {
+        "id": 4,
+        "title": "Ninja Character Finder",
+        "desc": "Front end website that helps the user to match their personnna to a TMNT Character.",
+        "image": "images/Home-Ninja-Character-Finder.png", 
+        "keywords": "Node.js /Javascript /Express / HTML/ CSS / Heroku", 
+        "demoLink": "http://findyourninjacharacter.herokuapp.com/",
+        "repo": "https://github.com/NVK2016/Ninja-Character-Finder"
+    },
+    {
+        "id": 5,
+        "title": "Superhero Trivia Game",
+        "desc": "Front end website that entices user's to play a Timed Trivia Game App which asks to questions related to superhero's", 
+        "image": "images/Trivia-Start-Page.png", 
+        "keywords": "HTML / Javascript / JQuery / CSS / Boostrap", 
+        "demoLink": "https://nvk2016.github.io/TriviaGame/",
+        "repo": "https://github.com/NVK2016/TriviaGame"
+    },
+    {
+        "id": 6,
+        "title": "Google-Search-Book",
+        "desc": "Full Stack MERN application built to search books using the google book api.",
+        "image": "images/Google-Search-Books.png", 
+        "keywords": "MongoDb / Express / React / Node.js / HTML / Javascript / CSS / Boostrap", 
+        "demoLink": "https://google-search-book.herokuapp.com",
+        "repo": "https://github.com/NVK2016/Google-Search-Book"
+    },
+    {
+        "id": 7,
+        "title": "GifTastic",
+        "desc": "Front end website that displays GIFs corresponding to the user input powered by Giphy API",
+        "image": "images/Default-Giftastic-Site.png", 
+        "keywords": "GIPHY & BANDs IN TOWN API's / AJAX /  HTML / Javascript / JQuery / CSS / Boostrap", 
+        "demoLink": "https://nvk2016.github.io/GifTastic/",
+        "repo": "https://github.com/NVK2016/GifTastic"
+    },
+    {
+        "id": 8,
+        "title": "Chugga Chugga Choo",
+        "desc": "Full Stack train scheduling app built with Firebase cloud Database that features responsive interface. ",
+        "image": "images/Train-Scheduler.png", 
+        "keywords": "Firebase / HTML / Javascript / JQuery / CSS / Boostrap", 
+        "demoLink": " https://nvk2016.github.io/Train-Scheduler/",
+        "repo": "https://github.com/NVK2016/Train-Scheduler"
+    },
+    {
+        "id": 9,
+        "title": "Flawless",
+        "desc": "Full Stack responsive web application that one stop resources to help prepare you for your next social occasion",
+        "image": "images/Flawless-API-Data.png", 
+        "keywords": "Firebase / AJAX / API's / HTML / Javascript / JQuery / CSS / Boostrap", 
+        "demoLink": "https://lalithapelluri6.github.io/Flawless/",
+        "repo": "https://github.com/NVK2016/Flawless"
+    },
+    {
+        "id": 10,
+        "title": "LIRI Bot",
+        "desc": "CLI application - Language Interpretation and Recognition Interface that queries API's based on the input parameter provided.",
+        "image": "images/liri-bot-cli.png", 
+        "keywords": "Node.js / AXIOS / API / Javascript / JQuery", 
+        "demoLink": "https://github.com/NVK2016/liri-node-app",
+        "repo": "https://github.com/NVK2016/liri-node-app"
+    },
+    {
+        "id": 11,
+        "title": "Bamazon",
+        "desc": "CLI Application - Amazon-like storefront app doesn't have a front-end to access it. There are two versions of this app - customer & manager view. ",
+        "image": "images/bamazon-manager.png", 
+        "keywords": "Node.js / MySQL / Javascript", 
+        "demoLink": "https://github.com/NVK2016/bamazon",
+        "repo": "https://github.com/NVK2016/bamazon"
+    },
+    {
+        "id": 12,
+        "title": "Eat Da CupCake",
+        "desc": "Full Stack Web application keeps a track of delicious cupcakes add, devoured and re-orded using the ORM concepts.", 
+        "image": "images/eat-da-cupcake.png", 
+        "keywords": "Node.js / Express / Handlebars / MySQL", 
+        "demoLink": "https://eatdacupcake.herokuapp.com/",
+        "repo": "https://github.com/NVK2016/EatDaCupcake"
+    }
+    ,
+    {
+        "id": 13,
+        "title": "Crystal Gem Collector",
+        "desc": "Front end websites application- collect all the gems as fast as you can ", 
+        "image": "images/Crystal-Gem.png", 
+        "keywords": "HTML / CSS / JQuery / Boostrap / Animate.CSS", 
+        "demoLink": "https://nvk2016.github.io/Crystal-Gem-Collector-Game/",
+        "repo": "https://github.com/NVK2016/Crystal-Gem-Collector-Game"
+    },
+    {
+        "id": 14,
+        "title": "Hangman",
+        "desc": "Front end website",
+        "image": "images/HangmanGame.png", 
+        "keywords": "HTML / CSS / Javascript", 
+        "demoLink": "https://nvk2016.github.io/Word-Guess-Game/",
+        "repo": "https://github.com/NVK2016/Word-Guess-Game"
+    },
+    {
+        "id": 15,
+        "title": "Psyhic Game",
+        "desc": "Front end websites application- Player has to enter a letter of his/her choice to guess what the computer is thinking",
+        "image": "images/Pshyic-Game.png", 
+        "keywords": "HTML / CSS / Javascript / Animate.CSS", 
+        "demoLink": "https://nvk2016.github.io/Psychic-Game/    ",
+        "repo": "https://github.com/NVK2016/Psychic-Game"
+    }
+]
