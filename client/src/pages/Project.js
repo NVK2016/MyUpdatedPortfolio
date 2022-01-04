@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import ProjectCard from "../components/ProjectCard";
+// import ProjectCard from "../components/ProjectCard";
 import projectList from "../projectList.json";
 
 class Project extends Component{
@@ -22,16 +22,16 @@ class Project extends Component{
                         <div className="card-deck">
                             {/* Loop through all the items in the static list  */}
                             {this.state.projectList.map(project => (
-                                <ProjectCard
-                                    id={project.id}
-                                    keywords={project.keywords}
-                                    desc={project.desc}
-                                    title={project.title}
-                                    image={project.image}
-                                    demoLink={project.demoLink}
-                                    repo={project.repo}
-                                />
-                               
+                                // <ProjectCard
+                                //     id={project.id}
+                                //     keywords={project.keywords}
+                                //     desc={project.desc}
+                                //     title={project.title}
+                                //     image={project.image}
+                                //     demoLink={project.demoLink}
+                                //     repo={project.repo}
+                                // />
+                               console.log("project", project)
                             ))}
                         </div>
                     </div>
