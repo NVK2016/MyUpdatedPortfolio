@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #landing {
+    margin:1%; 
+    
+    max-width: 100%; 
+    box-sizing: border-box; 
+    max-height: 97vh; 
+    /* min-height: 85vh;  */
+    text-align:  center; 
+    justify-content: center;
+    background-image: url(../public/images/background.jpeg); 
+    opacity: 0.8;
+    background-attachment:fixed;
+    
+  }
+  #about{
+    background-attachment: fixed;
+    background-image: url("../public/images/pexels-background3.jpg");
+    color: whitesmoke;
+  
+  }
+  a:hover {
+    color: lightcoral;
+  }
+  
+  #contact, #skills, #about , #projects { 
+    margin:1%; 
+    max-width: 98%; 
+    box-sizing: border-box; 
+    min-height: 95vh; 
+    text-align:  center; 
+    justify-content: center;
+  }
+  
+  hr {
+    max-width: 100px;
+    border-width: 3px;
+    border-color: #f05f40;
+  }
+  
+  hr.light {
+    border-color: #fff;
+  }
+  
+  svg , .iconImage { 
+    width: 100px; 
+    height: 90px; 
+  }
+  
+  .landing-head{
+    padding-top: 120px;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-size: 4em;
+  }
+  h3 { 
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                    0px -5px 35px rgba(0, 0, 120, 0.6);
+  }
+  /* .service-box{
+    width:120px;
+  } */
+  /* Animation effect on landing page */
+  .loader{
+      border:3px solid #d6336c;
+      width:200px;
+      height:200px;
+      border-radius:50%; 
+      border-left-color: transparent;
+    border-right-color: transparent;
+      animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+  }
+  #loader2{
+      border:3px solid #3bc9db;
+      width:220px;
+      height:220px;
+      position:relative;
+      top:-216px;
+      border-left-color: transparent;
+    border-right-color: transparent;
+      animation:rotate2 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+  }
+  #loader3{
+      border:3px solid #d6336c;
+      width:240px;
+      height:240px;
+      position:relative;
+      top:-452px;
+      border-left-color: transparent;
+    border-right-color: transparent;
+      animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+  }
+  #loader4{
+      border:3px solid #3bc9db;
+      width:260px;
+      height:260px;
+      position:relative;
+      top:-708px;
+      border-left-color: transparent;
+    border-right-color: transparent;
+      animation:rotate2 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+  }
+  @keyframes rotate{
+      0%{transform:rotateZ(-360deg)}
+      100%{transform:rotateZ(0deg)}
+  }
+  @keyframes rotate2{
+      0%{transform:rotateZ(360deg)}
+      100%{transform:rotateZ(0deg)}
+  }
+  
+  .landing-a{
+    position:relative;
+      /* top:-857px; */
+      top:-345px;
+  }
+  
+  /* Avatar Style  */
+  .avatar-img{
+    width:400px; 
+    height: 400px; 
+  }
+  #about{
+    background-color:#e6fff7;
+    
+  }
+  /* Social media effects */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  /* Contact Page */
+  input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .right-col {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .contact-label{
+    color: black; 
+    text-align: right; 
+    font-weight: 500;
+  }
+  
+  /* SPAM BOTS CANNOT PICK MY EMAILADDESS */
+  p#emaildomain::after {
+  content: "namita.shenai\gmail.com";
+  }
+  span#emailname::before {
+  content: "example";
+  }
+  span#botblocker {
+  display: none;
+  }
+  
+  
+  /* Media Queries */
+  @media only screen and(max-width: 980px) {
+    * {  max-width:98%; }
+  }
+  
+  @media only screen and(max-width: 768px) {
+    * { max-width:95%; }
+  }
+  
+  /* Mobile Layout */
+  @media only screen and (max-width: 640px) {
+    * { max-width:95%; }
+    #navpane { max-width: 100%;}
+  
+    /* Show the background in a mobile app  */
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  .navbar-toggler {
+      background: #fff; /* pick your color */
+  }
+  }
+  
+  /* Skill page effects  */
+  
+  .showbox {
+    float: left;
+    margin: 4em 1em;
+    width: 100px;
+    height: 60px;
+    border: 2px solid green;
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  
+  #front-end div:hover:after {
+    width: 2em;
+    background-color: orange;
+  }
