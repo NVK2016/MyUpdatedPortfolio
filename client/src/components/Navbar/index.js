@@ -25,9 +25,9 @@ function NavBar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#contact">Contact</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link " href="/resume/NamitaShenaiResume.pdf" target="_blank" title="NamitaShenaiResume">Resume</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
